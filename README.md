@@ -1,7 +1,7 @@
 ```markdown
 # Kex Programming Language Documentation
 
-Kex is a dynamically-typed, interpreted programming language designed for simplicity and ease of use. It supports basic arithmetic operations, variable assignments, and data structures like lists and dictionaries.
+Kex is a dynamically typed, interpreted programming language designed for simplicity and ease of use. It supports basic arithmetic operations, variable assignments, and data structures like lists and dictionaries.
 
 ## Basic Syntax
 
@@ -15,6 +15,7 @@ Kex supports the following data types:
 - **Lists**
 - **Dictionaries**
 
+```
 ### Variables and Assignment
 
 Variables in Kex are dynamically typed and can be assigned using the `=` operator:
@@ -105,5 +106,3 @@ kex> x + y
   - Feature Addition: File Handling
   - Feature Addition: Exception Handling
 ```
-
-This markdown syntax provides a structured and clear README file for your Kex programming language. It includes headings, subheadings, and code snippets formatted using triple backticks for readability.
