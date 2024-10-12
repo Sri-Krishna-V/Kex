@@ -1,30 +1,34 @@
 ```markdown
-# Kex Programming Language Documentation
+# _**Kex** Programming Language Docs_
 
-Kex is a dynamically typed, interpreted programming language designed for simplicity and ease of use. It supports basic arithmetic operations, variable assignments, and data structures like lists and dictionaries.
+*Kex* is a dynamically typed, interpreted programming language designed for simplicity and ease of use. It supports basic arithmetic operations, variable assignments, and data structures like lists and dictionaries.
 
-## Basic Syntax
+## **Basic Syntax**
 
 ### Data Types
 
 Kex supports the following data types:
-- **Integers**
-- **Floats**
-- **Strings** (enclosed in double quotes)
-- **Booleans** (true and false)
-- **Lists**
-- **Dictionaries**
+- **Text Type**
+  - _String **(str)**_
+- **Numeric Type**
+  - _Integer **(int)**_
+  - _Float **(float)**_
+- **Boolean Type** _**(bool)**_
+- **Sequence Type**
+  - _List **(list)**_
+  - _Tuple **(tuple)**_
+- **Mapping Type**
+  - _Dictionary **(dict)**_
 
-```
 ### Variables and Assignment
 
 Variables in Kex are dynamically typed and can be assigned using the `=` operator:
-
+```
 ```kex
 x = 5
 name = "Alice"
 ```
-
+```markdown
 ### Arithmetic Operations
 
 Kex supports basic arithmetic operations:
@@ -34,31 +38,33 @@ Kex supports basic arithmetic operations:
 - **Division**: `/`
 
 **Example:**
-
+```
 ```kex
 result = 10 + 5 * 2
 ```
-
+```markdown
 ### Lists
 
 Lists are created using square brackets:
+```
 
 ```kex
 numbers = [1, 2, 3, 4, 5]
 ```
-
+```markdown
 ### Dictionaries
 
 Dictionaries are created using curly braces:
+```
 
 ```kex
 person = {"name": "Bob", "age": 30}
 ```
-
+```markdown
 ### Comments
 
 Kex supports both single-line and multi-line comments:
-
+```
 ```kex
 // This is a single-line comment
 
@@ -67,7 +73,7 @@ This is a
 multi-line comment
 */
 ```
-
+```markdown
 ## Language Features
 
 - **Expression Evaluation**: Kex evaluates expressions and can handle nested arithmetic operations.
@@ -85,7 +91,7 @@ Based on the current implementation, Kex has several limitations:
 ## Usage
 
 To use Kex, run the interpreter and input expressions or statements at the prompt:
-
+```
 ```sh
 kex> x = 10
 kex> y = 20
@@ -93,16 +99,17 @@ kex> x + y
 30
 ```
 
+```markdown
 ## Future Plans
 
 - **Immediate (I)**: 
-  - Feature Addition: Conditional Operators
+  - [ ] Feature Addition: Conditional Operators
 
 - **Short Period (S)**: 
-  - Feature Addition: Control Flow Statements
-  - Feature Addition: Add Documentation Capability (docstring)
+  - [ ] Feature Addition: Control Flow Statements
+  - [ ] Feature Addition: Add Documentation Capability (docstring)
 
 - **Long Run (L)**:
-  - Feature Addition: File Handling
-  - Feature Addition: Exception Handling
+  - [ ] Feature Addition: File Handling
+  - [ ] Feature Addition: Exception Handling
 ```
