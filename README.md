@@ -23,7 +23,7 @@ Kex supports the following data types:
 
 Variables in Kex are dynamically typed and can be assigned using the `=` operator:
 
-```kex
+```python
 x = 5
 name = "Alice"
 ```
@@ -38,7 +38,7 @@ Kex supports basic arithmetic operations:
 
 **Example:**
 
-```kex
+```python
 result = 10 + 5 * 2
 ```
 
@@ -47,7 +47,7 @@ result = 10 + 5 * 2
 Lists are created using square brackets:
 
 
-```kex
+```python
 numbers = [1, 2, 3, 4, 5]
 ```
 
@@ -56,7 +56,7 @@ numbers = [1, 2, 3, 4, 5]
 Dictionaries are created using curly braces:
 
 
-```kex
+```python
 person = {"name": "Bob", "age": 30}
 ```
 
@@ -64,7 +64,7 @@ person = {"name": "Bob", "age": 30}
 
 Kex supports both single-line and multi-line comments:
 
-```kex
+```python
 // This is a single-line comment
 
 /*
